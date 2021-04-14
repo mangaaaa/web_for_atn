@@ -38,7 +38,7 @@ include("inc/header.php");
 				<h3 class="m_3"><?php echo $row['productname']?></h3>
 				
 				<div class="price_single">
-							  <span class="actual"><?php echo $row['productprice']?></span>
+							  <span class="actual"><?php echo $row['productprice'] ." $"?></span>
 							</div>
 							<form method="POST" action="cart.php"> 
             <label"><h4>Please choose quantity:</h4></label>
